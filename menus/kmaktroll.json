@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "On",
+        "command": "kmaktroll:on"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "kmaktroll",
+          "submenu": [
+            {
+              "label": "On",
+              "command": "kmaktroll:on"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
